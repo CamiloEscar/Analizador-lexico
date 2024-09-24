@@ -1,0 +1,28 @@
+#program 1;
+VAR A: REAL;
+BEGIN
+B:= 4.2; 
+A:= 5.e4;
+end.
+
+# error lexico ya que no se permite # en pascal
+program es una palabra reservada
+1 error lexico ya que no se permite numero como nombre de la funcion
+; es un signo de puntuacion
+var es una palabra reservada
+A es un identificador
+: es un signo de puntuacion
+real es un tipo de dato
+; es un signo de puntuacion
+begin es una palabra reservada
+b es un identificador
+:= es un operador
+4.2 es un numero real
+; es un signo de puntuacion
+a es un identificador
+:= es un operador
+5.e4 no se admite e
+; es un sigo de puntuacion
+end es una palabra reservada
+. error lexico
+
